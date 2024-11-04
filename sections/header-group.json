@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header",
@@ -8,14 +17,17 @@
         "9358ead7-959e-4cdd-b971-5a08e53c7729": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to the Flex sections developer preview<\/p>",
+            "text": "<p>Welcome to the Shopify Store</p>",
             "text_style": "",
             "alignment": "center",
             "size": {
               "width": "100%"
             },
             "spacing": {
-              "padding": "0px 20px"
+              "padding-block-start": "0px",
+              "padding-inline-end": "20px",
+              "padding-block-end": "0px",
+              "padding-inline-start": "20px"
             }
           }
         }
@@ -24,12 +36,15 @@
         "9358ead7-959e-4cdd-b971-5a08e53c7729"
       ],
       "settings": {
+        "spacing": {
+          "padding-block-start": "6px",
+          "padding-inline-end": "0px",
+          "padding-block-end": "6px",
+          "padding-inline-start": "0px"
+        },
         "layout": {
           "flex-direction": "row",
           "justify-content": "center"
-        },
-        "spacing": {
-          "padding": "6px 0"
         },
         "color_scheme": "scheme-2"
       }
@@ -40,28 +55,35 @@
         "group_QwzE6T": {
           "type": "group",
           "settings": {
-            "layout": {
-              "flex-direction": "row",
-              "justify-content": "flex-start"
-            },
             "size": {
               "width": "20%",
-
               "@media (--mobile)": {
                 "width": "100%"
               }
             },
             "spacing": {
-              "padding": "0"
-            }
+              "padding-block-start": "0px",
+              "padding-inline-end": "0px",
+              "padding-block-end": "0px",
+              "padding-inline-start": "0px"
+            },
+            "layout": {
+              "flex-direction": "row",
+              "justify-content": "flex-start"
+            },
+            "color_scheme": ""
           },
           "blocks": {
             "heading_HeFnwz": {
               "type": "heading",
               "settings": {
-                "heading": "<a href=\"\/\" title=\"\/\">Store name<\/a>",
+                "heading": "<a href=\"/\" title=\"/\">Tanjir Store</a>",
                 "heading_size": "h2",
-                "alignment": "start"
+                "alignment": "start",
+                "size": {
+                },
+                "spacing": {
+                }
               }
             }
           },
@@ -72,23 +94,24 @@
         "group_MMGbDg": {
           "type": "group",
           "settings": {
-            "layout": {
-              "flex-direction": "row",
-              "justify-content": "flex-end",
-
-              "@media (--mobile)": {
-                "justify-content": "flex-start"
-              }
-            },
             "size": {
               "width": "80%",
-
               "@media (--mobile)": {
                 "width": "100%"
               }
             },
             "spacing": {
-              "padding": "0"
+              "padding-block-start": "0px",
+              "padding-inline-end": "0px",
+              "padding-block-end": "0px",
+              "padding-inline-start": "0px"
+            },
+            "layout": {
+              "flex-direction": "row",
+              "justify-content": "flex-end",
+              "@media (--mobile)": {
+                "justify-content": "flex-start"
+              }
             },
             "color_scheme": ""
           },
@@ -96,41 +119,69 @@
             "link_gCx6K6": {
               "type": "link",
               "settings": {
-                "link": "https:\/\/github.com\/Shopify\/reference-theme\/discussions",
-                "label": "Github discussion board",
+                "link": "https://github.com/Shopify/reference-theme/discussions",
+                "label": "Home",
                 "style_class": "link",
-                "open_in_new_tab": true,
-                "icon": "chat_bubble",
-                "icon_position": "left"
+                "open_in_new_tab": false,
+                "icon": "none",
+                "icon_position": "left",
+                "size": {
+                },
+                "spacing": {
+                }
               }
             },
-            "link_qxd3Gx": {
+            "link_zt6r4n": {
               "type": "link",
               "settings": {
-                "link": "https:\/\/shopify.dev\/docs\/themes\/architecture\/blocks\/theme-blocks",
-                "label": "Developer documentation",
+                "link": "shopify://collections",
+                "label": "Catelog",
                 "style_class": "link",
-                "open_in_new_tab": true,
-                "icon": "question_mark",
-                "icon_position": "left"
+                "open_in_new_tab": false,
+                "icon": "none",
+                "icon_position": "left",
+                "size": {
+                },
+                "spacing": {
+                }
               }
             },
-            "link_hj67zg": {
+            "link_Bacj8k": {
               "type": "link",
               "settings": {
-                "link": "https:\/\/shopify.dev\/docs\/storefronts\/themes\/architecture\/settings\/style-settings",
-                "label": "Style settings documentation",
+                "link": "shopify://collections/all",
+                "label": "Products",
                 "style_class": "link",
-                "open_in_new_tab": true,
-                "icon": "question_mark",
-                "icon_position": "left"
+                "open_in_new_tab": false,
+                "icon": "none",
+                "icon_position": "left",
+                "size": {
+                },
+                "spacing": {
+                }
+              }
+            },
+            "link_jHKWrg": {
+              "type": "link",
+              "settings": {
+                "link": "shopify://pages/contact",
+                "label": "Contact",
+                "style_class": "link",
+                "open_in_new_tab": false,
+                "icon": "none",
+                "icon_position": "left",
+                "size": {
+                },
+                "spacing": {
+                }
               }
             }
           },
           "block_order": [
             "link_gCx6K6",
-            "link_qxd3Gx",
-            "link_hj67zg"
+            "link_zt6r4n",
+            "link_Bacj8k",
+            "link_jHKWrg"
           ]
         }
       },
@@ -139,12 +190,15 @@
         "group_MMGbDg"
       ],
       "settings": {
+        "spacing": {
+          "padding-block-start": "30px",
+          "padding-inline-end": "20px",
+          "padding-block-end": "30px",
+          "padding-inline-start": "20px"
+        },
         "layout": {
           "flex-direction": "row",
           "justify-content": "space-between"
-        },
-        "spacing": {
-          "padding": "30px 20px"
         },
         "color_scheme": ""
       }
