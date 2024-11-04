@@ -1,32 +1,93 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "group": {
+    "custom_section_qjfnff": {
       "type": "custom-section",
       "blocks": {
-        "text_FCYnfW": {
-          "type": "text",
+        "group_6WhAeW": {
+          "type": "group",
           "settings": {
-            "text": "<p>This template is not available in the Theme blocks developer preview.<\/p>",
-            "text_style": "",
-            "alignment": "center"
-          }
+            "size": {
+              "width": "75%"
+            },
+            "spacing": {
+            },
+            "layout": {
+              "flex-direction": "column",
+              "justify-content": "center"
+            },
+            "color_scheme": ""
+          },
+          "blocks": {
+            "heading_tjC3TC": {
+              "type": "heading",
+              "settings": {
+                "heading": "Contact Form",
+                "heading_size": "h1",
+                "alignment": "center",
+                "size": {
+                },
+                "spacing": {
+                }
+              }
+            },
+            "text_PBxWfE": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Send your valuable message to us.</p>",
+                "text_style": "",
+                "alignment": "center",
+                "size": {
+                },
+                "spacing": {
+                }
+              }
+            }
+          },
+          "block_order": [
+            "heading_tjC3TC",
+            "text_PBxWfE"
+          ]
         }
       },
       "block_order": [
-        "text_FCYnfW"
+        "group_6WhAeW"
       ],
       "settings": {
+        "spacing": {
+          "padding-block-start": "40px",
+          "padding-inline-end": "20px",
+          "padding-block-end": "40px",
+          "padding-inline-start": "20px"
+        },
         "layout": {
+          "flex-direction": "column",
           "justify-content": "center"
         },
-        "spacing": {
-          "padding": "100px 0px"
-        },
-        "color_scheme": "scheme-2"
+        "color_scheme": ""
+      }
+    },
+    "contact_form_JhVTEx": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "group"
+    "custom_section_qjfnff",
+    "contact_form_JhVTEx"
   ]
 }
