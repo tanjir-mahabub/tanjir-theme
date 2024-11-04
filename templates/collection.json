@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection-header": {
@@ -25,7 +34,8 @@
         },
         "layout": {
           "justify-content": "flex-start"
-        }
+        },
+        "color_scheme": ""
       }
     },
     "main-collection": {
@@ -35,7 +45,13 @@
           "type": "product-card",
           "static": true,
           "settings": {
-            "product": "{{ context.product }}"
+            "product": "{{ context.product }}",
+            "size": {
+            },
+            "spacing": {
+            },
+            "layout": {
+            }
           },
           "blocks": {
             "product_medias_Gawh7G": {
@@ -43,6 +59,10 @@
               "settings": {
                 "product": "{{ context.product }}",
                 "media_featured": true,
+                "size": {
+                },
+                "spacing": {
+                }
               }
             },
             "title_zGnXr7": {
@@ -50,23 +70,55 @@
               "settings": {
                 "product": "{{ context.product }}",
                 "heading_size": "h5",
+                "alignment": "start",
+                "size": {
+                },
+                "spacing": {
+                }
+              }
+            },
+            "rapid_reviews_reviews_stars_badge_NfCaJn": {
+              "type": "shopify://apps/rapid-reviews/blocks/reviews-stars-badge/7a3f281c-98ec-4a98-8b29-ee3200debcb5",
+              "settings": {
+                "link_color": "#e51111",
+                "link_style": "default",
+                "stars_badge_selector": "h1",
+                "insert_behavior": "after",
+                "stars_hide_zero": true,
+                "stars_alignment": "default",
+                "font_size": "default",
+                "stars_size": "default",
+                "stars_label_active": true,
+                "stars_badge_label": "Reviews",
+                "stars_q_label_active": false,
+                "ask_q_zero": false,
+                "stars_questions_label": ""
               }
             },
             "price_fiTWdm": {
               "type": "price",
               "settings": {
-                "product": "{{ context.product }}"
+                "product": "{{ context.product }}",
+                "size": {
+                },
+                "spacing": {
+                }
               }
             }
           },
           "block_order": [
             "product_medias_Gawh7G",
             "title_zGnXr7",
+            "rapid_reviews_reviews_stars_badge_NfCaJn",
             "price_fiTWdm"
           ]
         }
       },
       "settings": {
+        "num_products_per_page": 9,
+        "spacing": {
+        },
+        "color_scheme": ""
       }
     }
   },
