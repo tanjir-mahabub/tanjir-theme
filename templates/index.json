@@ -350,6 +350,9 @@
           "type": "newsletter",
           "settings": {
             "size": {
+              "width": "100%",
+              "flex-grow": "1",
+              "max-width": "400px"
             },
             "spacing": {
             }
