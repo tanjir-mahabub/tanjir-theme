@@ -13,7 +13,7 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="contact section-{{ section.id }}-padding">
+  <div class="contact  page-width page-width--narrow section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
       <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}
@@ -77,7 +77,7 @@
               aria-invalid="true"
               aria-describedby="ContactForm-email-error"
             {% endif %}
-            placeholder="Your Email"
+            placeholder="Email"
           >
           <label class="field__label" for="ContactForm-email">
             Email
@@ -90,7 +90,7 @@
                 <span class="svg-wrapper">
                   {{- 'icon-error.svg' | inline_asset_content -}}
                 </span>
-                Email {{ form.errors.messages.email }}
+                Email {% comment %}{{ form.errors.messages.email }}{% endcomment %}
               </span>
             </small>
           {%- endif -%}
