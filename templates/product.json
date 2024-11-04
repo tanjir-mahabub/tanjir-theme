@@ -117,14 +117,14 @@
                 }
               }
             },
-            "41c0675b-741c-4bc1-8edb-5291a98632e6": {
-              "type": "product-description",
+            "selleasy_lb_upsell_addon_block_cdLj7K": {
+              "type": "shopify://apps/selleasy/blocks/lb-upsell-addon-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
               "settings": {
-                "product": "{{ context.product }}",
-                "size": {
-                },
-                "spacing": {
-                }
+              }
+            },
+            "selleasy_lb_upsell_fbt_block_AE4Qte": {
+              "type": "shopify://apps/selleasy/blocks/lb-upsell-fbt-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+              "settings": {
               }
             },
             "group_a3Nwet": {
@@ -301,7 +301,8 @@
             "0ab4dad4-d9a4-4064-8512-5d6974e32100",
             "13857f6b-f089-4d09-8bf0-f55ec052560d",
             "7e6064f3-e925-4883-b434-2d96eb09a467",
-            "41c0675b-741c-4bc1-8edb-5291a98632e6",
+            "selleasy_lb_upsell_addon_block_cdLj7K",
+            "selleasy_lb_upsell_fbt_block_AE4Qte",
             "group_a3Nwet"
           ]
         }
@@ -309,6 +310,31 @@
       "block_order": [
         "9c8f7c42-604a-41de-a594-12f7c7f0e653",
         "c0e7c161-3f86-4580-b1d2-5d6f96428237"
+      ],
+      "settings": {
+        "spacing": {
+        },
+        "layout": {
+        },
+        "color_scheme": ""
+      }
+    },
+    "custom_section_dJ74Cf": {
+      "type": "custom-section",
+      "blocks": {
+        "product_description_fYJBJt": {
+          "type": "product-description",
+          "settings": {
+            "product": "{{ context.product }}",
+            "size": {
+            },
+            "spacing": {
+            }
+          }
+        }
+      },
+      "block_order": [
+        "product_description_fYJBJt"
       ],
       "settings": {
         "spacing": {
@@ -336,6 +362,7 @@
   },
   "order": [
     "eff0db31-5031-4cf7-b594-f534b4a21b27",
+    "custom_section_dJ74Cf",
     "173074862328b1846d"
   ]
 }

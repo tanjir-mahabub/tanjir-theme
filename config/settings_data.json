@@ -14,21 +14,6 @@
     "content_for_index": [
 
     ],
-    "blocks": {
-      "18228966181090706294": {
-        "type": "shopify://apps/selleasy/blocks/app-embed/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-        "disabled": false,
-        "settings": {
-          "storefrontAccessToken": ""
-        }
-      },
-      "4294441891937191675": {
-        "type": "shopify://apps/recommended-product-salesup/blocks/app-embed/28c5212f-728d-4d10-a8b6-81dc32610afb",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
