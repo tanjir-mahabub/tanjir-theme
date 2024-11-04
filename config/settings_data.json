@@ -48,7 +48,7 @@
       "scheme-4": {
         "settings": {
           "background": "#ffffff",
-          "background_gradient": "linear-gradient(46deg, rgba(149, 0, 244, 1) 4%, rgba(170, 248, 219, 0) 100%)",
+          "background_gradient": "linear-gradient(46deg, rgba(52, 133, 236, 0) 4%, rgba(170, 248, 219, 0) 100%)",
           "text": "#ffffff",
           "button": "#ffffff",
           "button_label": "#27293b",
