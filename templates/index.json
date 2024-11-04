@@ -37,7 +37,7 @@
             "layout": {
               "flex-direction": "column",
               "justify-content": "center",
-              "align-items": "center"
+              "align-items": "flex-start"
             },
             "color_scheme": "scheme-4"
           },
@@ -71,10 +71,10 @@
               "settings": {
                 "link": "#",
                 "label": "Shop all",
-                "style_class": "button-secondary",
+                "style_class": "button",
                 "open_in_new_tab": false,
-                "icon": "none",
-                "icon_position": "left",
+                "icon": "arrow",
+                "icon_position": "right",
                 "size": {
                   "width": "auto"
                 },
