@@ -317,9 +317,25 @@
         },
         "color_scheme": ""
       }
+    },
+    "173074862328b1846d": {
+      "type": "apps",
+      "blocks": {
+        "recommended_product_salesup_autoketing_recommended_p8mt4x": {
+          "type": "shopify://apps/recommended-product-salesup/blocks/autoketing-recommended/28c5212f-728d-4d10-a8b6-81dc32610afb",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "recommended_product_salesup_autoketing_recommended_p8mt4x"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "eff0db31-5031-4cf7-b594-f534b4a21b27"
+    "eff0db31-5031-4cf7-b594-f534b4a21b27",
+    "173074862328b1846d"
   ]
 }
